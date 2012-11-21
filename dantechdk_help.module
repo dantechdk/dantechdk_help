@@ -12,7 +12,7 @@ function dantechdk_help_menu() {
   $items = array();
 
   // View help topic.
-  $items['admin/help'] = array(
+  $items['help'] = array(
     'title' => 'Help',
     'description' => 'Find all the help you need to start using this site.',
     'page callback' => 'drupal_get_form',
@@ -23,6 +23,16 @@ function dantechdk_help_menu() {
   );
 
   return $items;
+}
+
+/**
+* Implements hook_admin_paths().
+*/
+function dantechdk_help_admin_paths() {
+  $paths = array(
+    'help' => TRUE,
+  );
+  return $paths;
 }
 
 /**
