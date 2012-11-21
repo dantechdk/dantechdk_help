@@ -47,7 +47,7 @@ function _dantechdk_help_store() {
   drupal_set_breadcrumb(array(l(t('Home'), '<front>'), l(t('Help'), 'admin/advanced_help')));
 
   $form = array();
-  $form['#attached']['css'] = array(drupal_get_path('module', 'dantechdk_help') . '/help/dantechdk_help.css');
+  $form['#attached']['css'] = array(drupal_get_path('module', 'dantechdk_help') . '/css/dantechdk_help.css');
 
   // Product management
   $form['product_management'] = array(
