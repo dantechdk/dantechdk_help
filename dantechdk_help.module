@@ -60,9 +60,9 @@ function _dantechdk_help_store() {
     '#collapsible' => TRUE,
     '#collapsed' => FALSE,
   );
-  $form['help_text']['introduction'] = array(
-    '#weight' => -12,
-    '#markup' => "<div id='commerce-kickstart-help'><p>Find all the help you need to start using your site.</p><iframe width="640" height="360" src='http://www.youtube.com/embed/U2YM-iW7FZA?rel=0' frameborder='0' allowfullscreen></iframe></div>",
+  $form['help_text']['general']['content'] = array(
+    '#type' => 'item',
+    '#markup' => '<div id="commerce-kickstart-help"><p>Find all the help you need to start using your site.</p><iframe width="640" height="360" src="http://www.youtube.com/embed/U2YM-iW7FZA?rel=0" frameborder="0" allowfullscreen></iframe></div>',
   );
 
   // Product management
