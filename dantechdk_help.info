@@ -1,0 +1,6 @@
+name = DanTechDK Help
+description = Provides in-distribution help for Dantech DK.
+core = 7.x
+package = DanTechDK
+dependencies[] = advanced_help
+
