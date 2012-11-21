@@ -69,7 +69,7 @@ function _dantechdk_help_store() {
   $form['product_management']['create_product']['content'] = array(
     '#type' => 'item',
     '#markup' => '<p>You can <a href="/node/add/dantech-product">create a product</a> by clicking on Add content in the menu and then selecting "Product".</p>
-    <iframe width="420" height="315" src="http://www.youtube.com/embed/I2Pis6iMkzM?rel=0" frameborder="0" allowfullscreen></iframe>',
+    <iframe width="420" height="315" src="http://www.youtube.com/embed/l2Pis6iMkzM?rel=0" frameborder="0" allowfullscreen></iframe>',
   );
   // Manage product
   $form['product_management']['manage_product'] = array(
@@ -251,7 +251,7 @@ function _dantechdk_help_store() {
   $form['demo_store_features']['change_frontpage']['content'] = array(
     '#type' => 'item',
     '#markup' => '<p>To edit the frontpage, you simply click the cog on the various parts of the page. Edit the content and hit save. You <strong>cannot</strong> change the layout of the frontpage - only edit the content.</p>
-    <iframe width="420" height="315" src="http://www.youtube.com/embed/N9PXISfWCul?rel=0" frameborder="0" allowfullscreen></iframe>',
+    <iframe width="420" height="315" src="http://www.youtube.com/embed/N9PZlSfWCuI?rel=0" frameborder="0" allowfullscreen></iframe>',
   );
 
   return $form;
