@@ -62,7 +62,7 @@ function _dantechdk_help_store() {
   );
   $form['help_text']['introduction'] = array(
     '#weight' => -12,
-    '#markup' => "<div id='commerce-kickstart-help'><p>Find all the help you need to start using your site.</p><iframe width="420" height="315" src='http://www.youtube.com/embed/U2YM-iW7FZA?rel=0' frameborder='0' allowfullscreen></iframe></div>',
+    '#markup' => "<div id='commerce-kickstart-help'><p>Find all the help you need to start using your site.</p><iframe width="640" height="360" src='http://www.youtube.com/embed/U2YM-iW7FZA?rel=0' frameborder='0' allowfullscreen></iframe></div>",
   );
 
   // Product management
@@ -85,7 +85,7 @@ function _dantechdk_help_store() {
   $form['product_management']['create_product']['content'] = array(
     '#type' => 'item',
     '#markup' => '<p>You can <a href="/node/add/dantech-product">create a product</a> by clicking on Add content in the menu and then selecting "Product".</p>
-    <iframe width="420" height="315" src="http://www.youtube.com/embed/l2Pis6iMkzM?rel=0" frameborder="0" allowfullscreen></iframe>',
+    <iframe width="640" height="360" src="http://www.youtube.com/embed/l2Pis6iMkzM?rel=0" frameborder="0" allowfullscreen></iframe>',
   );
   // Manage product
   $form['product_management']['manage_product'] = array(
@@ -97,7 +97,7 @@ function _dantechdk_help_store() {
   $form['product_management']['manage_product']['content'] = array(
     '#type' => 'item',
     '#markup' => '<p>You can easily <a href="/admin/structure/taxonomy">add new product categories</a> and <a href="/admin/structure/taxonomy/dantech_product_type">edit existing categories</a>.</p>
-    <iframe width="420" height="315" src="http://www.youtube.com/embed/h72bkmZT658?rel=0" frameborder="0" allowfullscreen></iframe>',
+    <iframe width="640" height="360" src="http://www.youtube.com/embed/h72bkmZT658?rel=0" frameborder="0" allowfullscreen></iframe>',
   );
 
   // Content management
@@ -120,7 +120,7 @@ function _dantechdk_help_store() {
   $form['order_management']['edit_order']['content'] = array(
     '#type' => 'item',
     '#markup' => '<p>You can <a href="/node/add/dantech-page">create a page</a> by clicking on Add content in the menu and then selecting "Page".</p>
-    <iframe width="420" height="315" src="http://www.youtube.com/embed/uMoSYFUfLL0?rel=0" frameborder="0" allowfullscreen></iframe>',
+    <iframe width="640" height="360" src="http://www.youtube.com/embed/uMoSYFUfLL0?rel=0" frameborder="0" allowfullscreen></iframe>',
   );
   // Add a partner
   $form['order_management']['add_partner'] = array(
@@ -132,7 +132,7 @@ function _dantechdk_help_store() {
   $form['order_management']['add_partner']['content'] = array(
     '#type' => 'item',
     '#markup' => '<p>You can <a href="/node/add/dantech-partner">create a partner</a> by clicking on Add content in the menu and then selecting "Partner".</p>
-    <iframe width="420" height="315" src="http://www.youtube.com/embed/2N5_qGarSTI?rel=0" frameborder="0" allowfullscreen></iframe>',
+    <iframe width="640" height="360" src="http://www.youtube.com/embed/2N5_qGarSTI?rel=0" frameborder="0" allowfullscreen></iframe>',
   );
   /*
   // Manage orders
@@ -145,7 +145,7 @@ function _dantechdk_help_store() {
   $form['order_management']['manage_orders']['content'] = array(
     '#type' => 'item',
     '#markup' => '<p>The bulk update and filtering of the order management screen gives you tools to not only find the right order, but also to edit multiple orders at once. For example, you could find all abandoned shopping carts that are three days old and choose to delete them.</p>
-    <iframe width="420" height="315" src="http://www.youtube.com/embed/SyYs11jkj7s?rel=0" frameborder="0" allowfullscreen></iframe><br />
+    <iframe width="640" height="360" src="http://www.youtube.com/embed/SyYs11jkj7s?rel=0" frameborder="0" allowfullscreen></iframe><br />
     <a href="http://www.drupalcommerce.org/commerce-kickstart-2/orders-overview">Learn more about Order Management</a></p>',
   );
   */
@@ -255,7 +255,7 @@ function _dantechdk_help_store() {
   $form['demo_store_features']['slideshow']['content'] = array(
     '#type' => 'item',
     '#markup' => '<p>The slideshow on the frontpage is quite easy to maintain. To <a href="/node/add/oe-slide">add slides</a>, you simply need to go to the Add Content page and select “Banner Slide.” You are presented with the title, link, and (of course) image.</p>
-    <iframe width="420" height="315" src="http://www.youtube.com/embed/ZOGeyfOqyOg?rel=0" frameborder="0" allowfullscreen></iframe>',
+    <iframe width="640" height="360" src="http://www.youtube.com/embed/ZOGeyfOqyOg?rel=0" frameborder="0" allowfullscreen></iframe>',
   );
  // Frontpage
   $form['demo_store_features']['change_frontpage'] = array(
@@ -267,7 +267,7 @@ function _dantechdk_help_store() {
   $form['demo_store_features']['change_frontpage']['content'] = array(
     '#type' => 'item',
     '#markup' => '<p>To edit the frontpage, you simply click the cog on the various parts of the page. Edit the content and hit save. You <strong>cannot</strong> change the layout of the frontpage - only edit the content.</p>
-    <iframe width="420" height="315" src="http://www.youtube.com/embed/N9PZlSfWCuI?rel=0" frameborder="0" allowfullscreen></iframe>',
+    <iframe width="640" height="360" src="http://www.youtube.com/embed/N9PZlSfWCuI?rel=0" frameborder="0" allowfullscreen></iframe>',
   );
 
   return $form;
