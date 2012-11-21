@@ -50,6 +50,22 @@ function _dantechdk_help_store() {
   $form['#attached']['css'] = array(drupal_get_path('module', 'dantechdk_help') . '/css/dantechdk_help.css');
 
   // Product management
+  $form['help_text'] = array(
+    '#type' => 'container',
+    '#attributes' => array('class' => array('product-management')),
+  );
+  $form['help_text']['general'] = array(
+    '#type' => 'fieldset',
+    '#title' => t('General introduction') . '<span class="sub-title"> - ' . t('A quick general introduction to your site') . '</span>',
+    '#collapsible' => TRUE,
+    '#collapsed' => FALSE,
+  );
+  $form['help_text']['introduction'] = array(
+    '#weight' => -12,
+    '#markup' => "<div id='commerce-kickstart-help'><p>Find all the help you need to start using your site.</p><iframe width="420" height="315" src='http://www.youtube.com/embed/U2YM-iW7FZA?rel=0' frameborder='0' allowfullscreen></iframe></div>',
+  );
+
+  // Product management
   $form['product_management'] = array(
     '#type' => 'container',
     '#attributes' => array('class' => array('product-management')),
